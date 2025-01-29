@@ -126,10 +126,20 @@ class MainForm(Form):
 
 
 	def Button1Click(self, sender, e):
-		pass
+		length = int(self._textBox1.Text)
+		width = int(self._textBox2.Text)
+		
+		area = length * width
+		perim = 2 * length + 2 * width
+		
+		self._label3.Text = "Area: " + str(area)
+		self._label4.Text = "Perimeter: " + str(perim)
 
 	def Button2Click(self, sender, e):
-		pass
+		self._textBox1.Text = ""
+		self._textBox2.Text = ""
+		self._label3.Text = "Area: "
+		self._label4.Text = "Perimeter: "
 
 	def Button3Click(self, sender, e):
-		pass
+		Application.Exit()
