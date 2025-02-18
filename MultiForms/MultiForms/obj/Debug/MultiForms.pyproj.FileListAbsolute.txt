@@ -1,0 +1,13 @@
+C:\Users\huseman.o\Desktop\programming-2\MultiForms\MultiForms\bin\Debug\MultiForms.exe.config
+C:\Users\huseman.o\Desktop\programming-2\MultiForms\MultiForms\bin\Debug\MultiForms.exe
+C:\Users\huseman.o\Desktop\programming-2\MultiForms\MultiForms\bin\Debug\MultiForms.dll
+C:\Users\huseman.o\Desktop\programming-2\MultiForms\MultiForms\bin\Debug\IronPython.dll
+C:\Users\huseman.o\Desktop\programming-2\MultiForms\MultiForms\bin\Debug\IronPython.Modules.dll
+C:\Users\huseman.o\Desktop\programming-2\MultiForms\MultiForms\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\huseman.o\Desktop\programming-2\MultiForms\MultiForms\bin\Debug\Microsoft.Scripting.dll
+C:\Users\huseman.o\Desktop\programming-2\MultiForms\MultiForms\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\huseman.o\Desktop\programming-2\MultiForms\MultiForms\obj\Debug\MultiForms.pyprojResolveAssemblyReference.cache
+C:\Users\huseman.o\Desktop\programming-2\MultiForms\MultiForms\obj\Debug\MultiForms.Form1.resources
+C:\Users\huseman.o\Desktop\programming-2\MultiForms\MultiForms\obj\Debug\MultiForms.MainForm.resources
+C:\Users\huseman.o\Desktop\programming-2\MultiForms\MultiForms\obj\Debug\MultiForms.pyproj.GenerateResource.Cache
+C:\Users\huseman.o\Desktop\programming-2\MultiForms\MultiForms\obj\Debug\MultiForms.exe
