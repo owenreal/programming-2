@@ -58,9 +58,9 @@ class MainForm(Form):
 		self._comboBox1.Font = System.Drawing.Font("Microsoft Sans Serif", 12, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
 		self._comboBox1.FormattingEnabled = True
 		self._comboBox1.Items.AddRange(System.Array[System.Object](
-			["Day ($0.07rpm)",
-			"Night ($0.12rpm)",
-			"Off-peak ($0.05rpm)"]))
+			["Day",
+			"Night",
+			"Off-peak"]))
 		self._comboBox1.Location = System.Drawing.Point(217, 12)
 		self._comboBox1.Name = "comboBox1"
 		self._comboBox1.Size = System.Drawing.Size(156, 28)
@@ -129,10 +129,21 @@ class MainForm(Form):
 
 
 	def Button1Click(self, sender, e):
-		pass
+		minutes = float(self._textBox1.Text)
+		rpm = 0.00
+		if self._comboBox1.Text == "Day":
+			rpm = 0.07
+		elif self._comboBox1.Text == "Night":
+			rpm = 0.12
+		else:
+			rpm = 0.05
+		price = 0
+		price = rpm * minutes
+		
+		self._label4.Text = "$" + str(price)
 
 	def Button2Click(self, sender, e):
-		self._label4.Text = ""
+		self._label4.Text = "amount"
 		self._textBox1.Text = ""
 		self._comboBox1.Text = ""
 
