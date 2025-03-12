@@ -1,5 +1,6 @@
 from cl285b import Salesperson
 
+
 def main():
     try:
         print("Number\tCode\tSales\tCommission")
@@ -21,6 +22,7 @@ def main():
     except Exception as e:
         print("Error:", e)
     pass
+
 
 if __name__ == "__main__":
     main()
