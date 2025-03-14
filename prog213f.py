@@ -12,7 +12,7 @@ def main():
                     bills.append(ebill)
         for bill in bills:
             bill.calc()
-            print(bill) # print(str(bill))
+            print(bill)  # print(str(bill))
     except OSError as e:
         print("Error:", e)
     pass
