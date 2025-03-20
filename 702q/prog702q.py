@@ -18,31 +18,41 @@ def main():
                     v = Truck(name, tires, miles)
                     vehicles.append(v)
                 elif num == 3:
-                    fav_word = f.readline().strip()
-                    p = Admin(fn, ln, fav_word)
-                    people.append(p)
+                    home = f.readline().strip()
+                    v = Bus(name, tires, home)
+                    vehicles.append(v)
                 num = int(f.readline())
-            tot = 0.0
-            cnt = 0
-            tot_stus = 0
+            vehicle_amount = 0.0
+            car_worth = 0.0
+            car_tires = 0
+            truck_tires = 0
+            bus_tires = 0
+            low_truck_value = 10000
             large = ""
-            small = "dhgsfkjdhsjfhkdlhgsakhfjhakdhakjhfkjdahgualhglkjfhdgkahekuahfdkjlakuehfkjlhdkuhejfkeheu"
-            for person in people:
-                if isinstance(person, Student):
-                    tot += person.gpa
-                    cnt += 1
-                elif isinstance(person, Teacher):
-                    tot_stus += person.num_stu
-                elif isinstance(person, Admin):
-                    fw = person.fav_word
-                    if len(fw) > len(large):
-                        large = fw
-                    if len(fw) < len(small):
-                        small = fw
-            print("Average student GPA:", round(tot/cnt, 2))
-            print("Total number of students taught:", tot_stus)
-            print("Smallest favorite admin word:", small)
-            print("Largest favorite admin word:", large)
+            for vehicle in vehicles:
+                if isinstance(Vehicle, Car):
+                    car_worth += vehicle.worth
+                    vehicle_amount += 1
+                    car_tires += 1
+                elif isinstance(Vehicle, Truck):
+                    worth = 50000 - vehicle.miles / 4
+                    if worth < low_truck_value:
+                        low_truck_value = worth
+                    vehicle_amount += 1
+                    truck_tires += 1
+                elif isinstance(Vehicle, Bus):
+                    h = vehicle.home
+                    vehicle_amount += 1
+                    bus_tires += 1
+                    if len(h) > len(large):
+                        large = h
+            print("Total number of vehicles:", vehicle_amount)
+            print("Total worth of all cars:", car_worth)
+            print("Longest name of bus hometown:", large)
+            print("Lowest value truck:", low_truck_value)
+            print("Total number of car tires:", car_tires)
+            print("Total number of truck tires:", truck_tires)
+            print("Total number of bus tires:", bus_tires)
     except Exception as e:
         print("Error:", e)
     pass
