@@ -8,7 +8,7 @@ def main():
             num = int(f.readline())
             while num != 99:
                 name = f.readline()
-                tires = f.readline()
+                tires = int(f.readline())
                 if num == 1:
                     worth = float(f.readline())
                     v = Car(name, tires, worth)
