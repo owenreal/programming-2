@@ -15,7 +15,12 @@
       "ProjectGuid": "06f1309b-253a-4b95-b0ea-f33a3099ebb8",
       "DisplayName": "Prog54c",
       "ColorIndex": 2
+    },
+    "8e30d87d-0334-4aec-b40d-977dd0120b82": {
+      "ProjectGuid": "8e30d87d-0334-4aec-b40d-977dd0120b82",
+      "DisplayName": "Prog54a",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
