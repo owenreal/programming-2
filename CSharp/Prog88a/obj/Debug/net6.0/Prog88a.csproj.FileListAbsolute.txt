@@ -1,0 +1,14 @@
+C:\Users\huseman.o\Desktop\programming-2\CSharp\Prog88a\bin\Debug\net6.0\Prog88a.exe
+C:\Users\huseman.o\Desktop\programming-2\CSharp\Prog88a\bin\Debug\net6.0\Prog88a.deps.json
+C:\Users\huseman.o\Desktop\programming-2\CSharp\Prog88a\bin\Debug\net6.0\Prog88a.runtimeconfig.json
+C:\Users\huseman.o\Desktop\programming-2\CSharp\Prog88a\bin\Debug\net6.0\Prog88a.dll
+C:\Users\huseman.o\Desktop\programming-2\CSharp\Prog88a\bin\Debug\net6.0\ref\Prog88a.dll
+C:\Users\huseman.o\Desktop\programming-2\CSharp\Prog88a\bin\Debug\net6.0\Prog88a.pdb
+C:\Users\huseman.o\Desktop\programming-2\CSharp\Prog88a\obj\Debug\net6.0\Prog88a.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huseman.o\Desktop\programming-2\CSharp\Prog88a\obj\Debug\net6.0\Prog88a.AssemblyInfoInputs.cache
+C:\Users\huseman.o\Desktop\programming-2\CSharp\Prog88a\obj\Debug\net6.0\Prog88a.AssemblyInfo.cs
+C:\Users\huseman.o\Desktop\programming-2\CSharp\Prog88a\obj\Debug\net6.0\Prog88a.csproj.CoreCompileInputs.cache
+C:\Users\huseman.o\Desktop\programming-2\CSharp\Prog88a\obj\Debug\net6.0\Prog88a.dll
+C:\Users\huseman.o\Desktop\programming-2\CSharp\Prog88a\obj\Debug\net6.0\ref\Prog88a.dll
+C:\Users\huseman.o\Desktop\programming-2\CSharp\Prog88a\obj\Debug\net6.0\Prog88a.pdb
+C:\Users\huseman.o\Desktop\programming-2\CSharp\Prog88a\obj\Debug\net6.0\Prog88a.genruntimeconfig.cache
